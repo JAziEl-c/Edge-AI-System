@@ -5,8 +5,8 @@ Developed by a group of passionate SIT students.
 ## 1. Overview
 This project implements a **context-aware robotic system** that combines:
 - Face Recognition (identity)
-- Audio Detection (Commands) **-- Contributed by** ``Jaziel``
-*See the full [Audio Detection Module]() for architecture and technical specifications*
+- Audio Detection (Commands) ``Contributed by Jaziel``<br>
+*See the full [Audio Detection Module](inf2009_project_audio_detection/README.md) for architecture and technical specifications*
 - Vision Language Model (scene understanding)
 - MQTT Backbone (communication)
 - Alerting + Cloud Logging

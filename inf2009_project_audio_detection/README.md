@@ -72,7 +72,7 @@ pip install vosk     # Required for Command Detection
 
 OR
 
-pip install -r requirements.text
+pip install -r requirements.txt
 ```
 ---
 ## 5. Optimization and Edge Considerations
@@ -89,7 +89,7 @@ pip install -r requirements.text
 ## 6. Testing and Observations
 | Module     | Test Method                    | Observation                                                                 |
 |------------|--------------------------------|-----------------------------------------------------------------------------|
-| Distance   | Move mic away from sound source | RMS decreases linearly; distance estimate increases. Calibration is critical. |
+| Distance   | Move mic away from sound source | RMS drops; distance estimate increases. Calibration is critical. |
 | Speaker ID | Speak vs. Silence              | Correctly ignores silence. Identifies registered users with ~85% accuracy in quiet rooms. |
 | Commands   | Say "Kitty fetch"              | Successfully triggers wake word and command intent.                        |
 | MQTT       | Run `mqtt_subscriber.py`       | All topics (`voice/#`) receive JSON payloads with timestamps.              |
